@@ -61,10 +61,9 @@ end
 
 def runner
   # code runner here
-  until
   welcome
   initial_round
-  hit? while display_card_totals
+  hit?
   end_game
 end
 end
